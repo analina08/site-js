@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #E6E6E6;
+    color: #333;
+    padding: 10px 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header .logo h1{
+    padding: 30px;
+    font-size: 30px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-left: 20px;
+}
+header ul li a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.negocio{
+    background-color: #BDBDBD;
+    color: #333;
+    text-align: center;
+    padding: 80px;
+}
+.negocio h1{
+    font-size: 48px;
+}
+.negocio p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.negocio button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: #E6E6E6;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tempo{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: #E6E6E6;
+}
+.tempo h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.tempo-timer{
+    font-size: 28px;
+    font-weight: bold;
+}
+.benef{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E6E6E6;
+}
+.benef h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.benef-item{
+    margin-bottom: 20px;
+}
+.benef-item h3{
+    font-size: 20px;
+}
+.modais{
+    text-align: center;
+    padding: 60px;
+    background-color: #BDBDBD;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.modais-fadein{
+    display: none;
+    padding-bottom: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+.modais-fadein p{
+    font-size: 16px;
+    color: #333;
+}
+.contato{
+    text-align: center;
+    padding: 40px 20px;
+}
+.contato h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+#formulario{
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+.contato input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.contato button{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E6E6E6;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+footer{
+    background-color: #333;
+    color: #E6E6E6;
+    text-align: center;
+    padding: 20px;
+}
+
